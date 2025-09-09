@@ -1,0 +1,416 @@
+@media(max-width: 900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+     h1, h2{
+        color: #16ae58;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .titulos{
+        color: #16ae58;
+    }
+   
+    .parte-1 button{
+        font-size: 1rem;
+        margin-right: 14rem;
+        margin-top: 3rem;
+        background: #16a34a;
+        color: #fff;
+        padding: 0.875rem 2rem; 
+        border: none;
+        border-radius: 0.5rem; 
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+    .parte-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parte-1 img{
+        width: 14rem;
+        height: 14rem;
+        margin-top: 24rem;
+        margin-left: 12rem;
+        position: absolute;
+    }
+
+    .parte-1a{
+        text-align: left;
+    }
+
+    .parte-1 h1{
+        font-size: 2.8rem;
+        margin-top: 2rem;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    .parte-1 p{
+        font-size: 1.3rem;
+        text-align: left;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 2rem;
+    }
+
+    .parte-1b{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tudo{
+        display: flex;
+    }
+
+    .explicacao{
+        margin-top: 10rem;
+        text-align: center;
+        background: #ffffff;
+    }
+
+    .explicacao h2{
+       font-size: 1.3rem;
+       padding: 1rem;
+    }
+
+    .explic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .explic p{
+        font-size: 0.7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+       
+    }
+
+    .explic h3{
+        font-size: 0.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+       
+    }
+
+    .explic img{
+        margin-left: 1rem;
+        margin-right: 2rem;
+        width: 4rem;
+    }
+
+    .explic .titulos{
+        text-align: center;
+    }
+
+    body.escuro {
+        background-color: #000000;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro main .rl {
+    content: url("../img/relogio-home2.png");
+    }
+
+    body.escuro .titulos{
+        color: #fff;
+    }
+
+    body.escuro main h1{
+        color: #fff;
+    }
+
+    body.escuro .explicacao h2{
+        color: #fff; 
+    }
+
+
+    body.escuro .explicacao{
+        background-color: #16ae58;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body{
+        background: #e4edf4;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .baixar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+        margin-right: 1rem;
+    }
+
+    .baixar button{
+        background: none;
+        border-radius: 99px;
+        border: none;
+        margin-right: 0.8rem;
+    }
+
+    .baixar img{
+        width: 4rem;  
+    }
+
+    .fundo{
+        position: absolute;      
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/fundo-mobile-home.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        z-index: 0; 
+        pointer-events: none;
+    }
+    
+    body.escuro .fundo {
+     background-image: url("../img/fundo2-mobile-home.png");
+    }
+}
+
+@media(min-width: 900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1, h2{
+        color: #16ae58;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .titulos{
+        color: #16ae58;
+        text-align: center;
+    }
+
+    .parte-1{
+        margin-top: 1rem;
+        display: flex;
+        
+    }
+
+    .parte-1 img{
+        width: 18.75rem; 
+        margin-top: 1.875rem;
+        z-index: 1;
+    }
+
+    .parte-1a{
+        text-align: left;
+        margin-left: 4rem;
+    }
+
+    .parte-1 h1{
+        font-size: 4rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .parte-1 p{
+        font-size: 1.4rem;
+        margin-right: 40%;
+    }
+
+    .parte-1 button{
+        font-size: 1.4rem;
+        margin-right: 20rem;
+        margin-top: 3rem;
+        background: #16a34a;
+        color: #fff;
+        padding: 0.875rem 2rem; 
+        border: none;
+        border-radius: 0.5rem; 
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .parte-1 button:hover{
+        background: #15803d;
+    }
+
+    .parte-1b{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.13rem 3rem; 
+        background: linear-gradient(to right, #fff, #f0f9ff);
+         
+    }
+
+    .rl{
+        margin-right: 12rem;
+        margin-left: 20rem;
+    }
+    
+    .explicacao{
+        text-align: center;
+        padding: 1.7rem;
+        background: #ffffff;
+    }
+
+    .bt-home{
+        color: #fff;
+    }
+
+    .explicacao h2{
+       font-size: 2.3rem;
+       padding: 1.24rem;
+    }
+
+    .explic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explic p{
+        font-size: 1.1rem;
+        margin-left: 24%;
+        margin-right: 24%;
+        text-align: left;
+    }
+
+    .explic h3{
+        font-size: 1.1rem;
+        margin-left: 24%;
+        margin-right: 30%;
+        text-align: left;
+    }
+
+    .explic img{
+        font-size: 1.1rem;
+        margin-left: 22%;
+        margin-right: 30%;
+        text-align: left;
+        width: 6.4rem;
+    }
+
+    .explic .titulos{
+        text-align: center;
+    }
+
+    body.escuro {
+        background-color: #1e293b;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro .tudo{
+        background: #000000;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro main .rl {
+    content: url("../img/relogio-home2.png");
+    }
+
+
+    body.escuro .titulos{
+        color: #fff;
+    }
+
+    body.escuro main h1{
+        color: #fff;
+    }
+
+    body.escuro .explicacao h2{
+        color: #fff; 
+    }
+
+
+    body.escuro .explicacao{
+        background: #22c55e;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body{
+        background: #f8fdfb;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .baixar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+       margin-right: 3rem;
+    }
+
+    .baixar button{
+        background: none;
+        border-radius: 99px;
+        border: none;
+        margin-right: 0.7rem;
+    }
+
+    .baixar button:hover{
+        cursor: pointer;
+    }
+
+    .baixar img{
+        width: 4rem;
+    }
+
+    .fundo{
+        position: fixed;      
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/fundo2.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        z-index: 0; 
+        pointer-events: none;
+    }
+    
+    body.escuro .fundo {
+     background-image: url("../img/fundo2-dark.png");
+    }
+
+}

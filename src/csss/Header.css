@@ -1,0 +1,243 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .botao-menu {
+        height: 4rem;
+        padding-inline: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .bt-menu{
+        background: none;
+        border: none;
+        color: #000000;
+        margin-top: 1.5rem;
+    }
+
+    .botao-menu a{
+        margin-top: 1rem;
+    }
+
+    .menu {
+      width: 9rem;
+      height: 16rem;
+      border-end-start-radius: 4rem;
+      padding-right: 2rem;
+      margin-top: 1.9rem;
+      transition: transform 0.2s; 
+      background: #e4edf4; 
+      border-left: 0.2rem solid #15803d;
+      border-bottom: 0.2rem solid #15803d;;
+      position: absolute;
+      right: 0;
+      left: auto;
+    }
+
+    .menu nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }   
+
+    .menu.close {
+        transform: translateX(100%);
+    }
+
+    a{
+        font-family: Inter;
+        color: #16ae58;
+        text-decoration: none;
+    }
+
+    .as{
+        font-size: 1rem;
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .logo-mobile{
+        width: 3.8rem;
+        margin-top: 1rem;
+    }
+
+    .logo-mobile:hover{
+        cursor: pointer;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    header{
+    display: flex;
+    height: 6rem;
+    background: none;
+    background: #fff;
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.05);
+    }
+
+    header.escuro {
+        background: none;
+        color: #fff;
+    }
+
+    header{
+        background: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header.escuro .logo-mobile {
+    content: url("../img/logo2.png");
+    }
+
+    header.escuro .bt-tema{
+    content: url("../img/sol.png");
+    }
+
+    header.escuro .menu{
+        background: #161616;
+    }
+
+    header.escuro .bt-menu{
+        color: #fff;
+    }
+
+    header.escuro a{
+        color: #fff;
+    }
+
+    .tema button{
+        background: none;
+        border-radius: 20rem;
+        width: 3.5rem;
+        border: none;
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .tema button:hover{
+        cursor: pointer;
+    }
+
+    .tema img{
+        width: 100%; 
+    }
+
+    .tema{
+        margin-left: 14rem;
+    }
+
+
+
+@media(min-width: 900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .menu-desktop nav {
+       display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-desktop {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    a{
+        color: #16ae58;
+        text-decoration: none;
+    }
+    
+    .as{
+        font-size: 1.5rem;
+        width: fit-content;
+
+    }
+    
+    .as:hover{
+        color: #008d3d;
+    }
+
+    .logo-desktop{
+        display: block;
+        width: 4rem;
+        margin-inline: auto;
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
+    
+    .logo-desktop:hover{
+        cursor: pointer;
+    }
+
+    header.escuro {
+        background: #000;
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+        color: #fff;
+    }
+
+    header.escuro a{
+        color: #fff; 
+    }
+
+    header.escuro .logo-desktop {
+    content: url("../img/logo2.png");
+    }
+
+    header.escuro .bt-tema{
+    content: url("../img/sol.png");
+    }
+
+    header.escuro .as:hover{
+        color: #22c55e;
+    }
+
+    header {
+        height: 6rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: #fff;
+        box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.05);
+    }
+
+    .tema button{
+        background: none;
+        border-radius: 20rem;
+        width: 5rem;
+        border: none;
+        margin-bottom: 1.4rem;
+    }
+
+    .tema button:hover{
+        cursor: pointer;
+    }
+
+    .tema img{
+        width: 100%; 
+    }
+
+    .tema{
+        padding: 2rem;
+    }
+}

@@ -1,0 +1,229 @@
+@media(max-width: 900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body.escuro {
+        background-color: #000000;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro .Instrucoes h1{
+        color: #16ae58;
+    }
+
+    body.escuro .Instrucoes h2{
+        color: #fff;
+    }
+
+    body{
+        background: #e4edf4;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Instrucoes .fundo{
+        position: absolute;      
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/fundo-mobile.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat-y;
+
+        z-index: -1; 
+        pointer-events: none;
+    }
+
+    body.escuro .Instrucoes .fundo {
+     background-image: url("../img/fundo-mobile.png");
+    }
+
+    .h2-i{
+        color: #000000;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1rem;
+    }
+
+    
+    
+    .instucao{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instucao-a{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 4rem;
+        z-index: 1; 
+    }
+
+    .instucao-a p{
+       font-size: 1.2rem;
+       margin-top: 1rem;
+    }
+
+    .instucao-v p{
+       font-size: 1.2rem;
+       margin-top: 1rem;
+    }
+
+    .instucao-a img{
+        width: 70%;
+    }
+
+    .instucao-v{
+        margin-bottom: 2rem;
+    }
+
+    .instucao-v2{
+        height: 20rem;
+        width: 22rem;
+        background: #54ac3f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 99px;
+    }
+
+    .instucao-v2 img{
+        width: 50%;
+    }
+
+    .Instrucoes{
+        text-align: center;
+    }
+    
+    .Instrucoes h1{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .Instrucoes h2{
+        font-size: 1.3rem;
+        margin-bottom: 6rem;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media(min-width: 900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body.escuro {
+        background-color: #000000;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro .Instrucoes h1{
+        color: #16ae58;
+    }
+
+    body.escuro .Instrucoes h2{
+        color: #fff;
+    }
+
+    body{
+        background: #e4edf4;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .Instrucoes .fundo{
+        position: absolute;      
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/fundo-ins.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        z-index: 0; 
+        pointer-events: none; 
+    }
+
+    body.escuro .Instrucoes .fundo {
+     background-image: url("../img/fundo-ins.png");
+    }
+    
+    .h2-i{
+        color: #000000;
+    }
+    
+    .instucao{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instucao p{
+       margin-top: 1rem;
+       font-size: 1.2rem;
+    }
+
+
+    .instucao-a{
+        margin-left: 5%;
+        margin-right: 5%;
+        z-index: 1; 
+    }
+
+    .instucao-a, .instucao-v2 p{
+       font-size: 1.1rem;
+    }
+
+    .instucao-a img{
+        width: 80%;
+     
+    }
+
+    .instucao-v{
+        margin-right: 4rem;
+    }
+
+
+    .instucao-v2{
+        height: 20rem;
+        width: 30rem;
+        background: #54ac3f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 99px;
+    }
+
+    .Instrucoes{
+        text-align: center;
+    }
+    
+    .Instrucoes h1{
+        margin-top: 2rem;
+        font-size: 3.4rem;
+    }
+
+    .Instrucoes h2{
+        font-size: 1.7rem;
+        margin-bottom: 6rem;
+    }
+}

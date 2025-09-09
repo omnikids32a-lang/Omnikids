@@ -1,0 +1,360 @@
+@media(max-width: 900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .pecas2 img {
+        width: 2.4rem;  
+        height: auto;
+    }
+
+    .produto-desktop{
+        display: none;
+    }
+
+    .produto-mobile {
+        width: 100%;
+    }
+
+    .prod-1{
+        margin-top: 1rem;
+        display: flex;
+        
+    }
+
+    .prod-1 img{
+        width: 18.75rem; 
+        margin-top: 1.875rem;
+        z-index: 1;
+    }
+
+    .prod-1a{
+        text-align: left;
+    }
+
+    .prod-1 h1{
+        font-size: 2.2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .prod-1 p{
+        font-size: 1.4rem;
+        margin-right: 20%;
+        text-align: left;
+    }
+
+    .prod{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.13rem 3rem; 
+        background: linear-gradient(to right, #fff, #f0f9ff);
+         
+    }
+    
+    
+    .componetes{
+        text-align: center;
+        padding: 2rem;
+        background: #ffffff;
+    }
+
+    .pecas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+     .pecas2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pecas h2{
+       font-size: 2rem;
+    }
+
+    .componente h3{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .componente img{
+        width: 12rem;
+        border: 0.4rem solid #16ae58;
+        border-radius: 2rem;
+    }
+
+    .componente{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2rem;
+        z-index: 1; 
+    }
+
+    .pecas2 button{
+        background: none;
+        border: none;
+        margin-top: -14%;
+    }
+
+        .dots {
+         display: flex;
+        justify-content: center;
+        margin-top: -5%;
+        margin-bottom: 2rem;
+        gap: 8px;
+        }
+
+        .dot {
+          width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #bbb;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.2s;
+        }
+
+        .dot:hover {
+            transform: scale(1.2);
+        }
+
+        .dot.active {
+        background: #000; /* cor do pontinho ativo */
+        }
+
+    body.escuro {
+        background-color: #1e293b;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro .componente img{
+        border: 0.4rem solid #000;
+    }
+
+
+    body.escuro .prod{
+        background: #000000;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro main h1{
+        color: #fff;
+    }
+
+    body.escuro .componetes h3{
+        color: #fff; 
+    }
+
+
+    body.escuro .componetes{
+        background: #22c55e;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+     body.escuro .produto-mobile h2{
+        color: #000000;
+    }
+
+    body.escuro .produto-mobile h3{
+        color: #000000;
+    }
+
+    body{
+        background: #f8fdfb;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .produto-mobile h2{
+        color: #000000;
+    }
+}
+
+@media(min-width: 900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1, h2{
+        color: #16ae58;
+    }
+
+    .produto-desktop {
+        width: 100%;   
+    }
+
+    .produto-mobile {
+        display: none;
+    }
+
+    .prod-1{
+        margin-top: 1rem;
+        display: flex;
+        
+    }
+
+    .prod-1 img{
+        width: 18.75rem; 
+        margin-top: 1.875rem;
+        z-index: 1;
+    }
+
+    .prod-1a{
+        text-align: left;
+        margin-left: 4rem;
+    }
+
+    .prod-1 h1{
+        font-size: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .prod-1 p{
+        font-size: 2rem;
+        margin-right: 20%;
+    }
+
+    .prod{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.13rem 3rem; 
+        background: linear-gradient(to right, #fff, #f0f9ff);
+         
+    }
+
+    .kid{
+        margin-right: 20rem;
+        margin-left: 10rem;
+        
+    }
+
+    .kid img{
+        width: 30rem;
+    }
+    
+    .componetes{
+        text-align: center;
+        padding: 2rem;
+        background: #ffffff;
+    }
+
+    .pecas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+     .pecas2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pecas2 h2{
+       margin-left: 4%;
+       margin-right: 7%;
+       font-size: 2rem;
+    }
+
+    .componente h3{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .componente img{
+        width: 12rem;
+        border: 0.4rem solid #16ae58;
+        border-radius: 2rem;
+    }
+
+    .componente{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2rem;
+        z-index: 1; 
+    }
+
+    body.escuro {
+        background-color: #1e293b;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro .prod{
+        background: #000000;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro main h1{
+        color: #fff;
+    }
+
+    body.escuro .componetes h3{
+        color: #fff; 
+    }
+
+
+    body.escuro .componetes{
+        background: #22c55e;
+        color: #fff;
+        box-shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+    }
+
+    body.escuro .produto-desktop h2{
+        color: #000000;
+    }
+
+    body.escuro .produto-desktop h3{
+        color: #000000;
+    }
+
+    body.escuro .componente img{
+        border: 0.4rem solid #000;
+    }
+
+    body{
+        background: #f8fdfb;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fundo{
+        position: fixed;      
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/fundo2.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        z-index: 0; 
+        pointer-events: none;
+    }
+    
+    body.escuro .fundo {
+     background-image: url("../img/fundo2-dark.png");
+    }
+
+}
